@@ -1,0 +1,106 @@
+
+html{
+    background: #f7f7f7f7;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans';font-size: 15px;
+    background: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: rgb(49, 46, 46)
+}
+header{
+    background: #f7f7f7f7;
+    height: 100px;
+}
+footer{
+    background: #006F76;
+    color: beige;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.tienda{
+    width: 5px;
+    height: 5px;
+}
+li{
+    list-style: inside circle;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color:#3dbcc5;
+}
+header li{
+    display: inline;
+}
+header h1,nav{
+    display: inline-block;
+}
+main{
+    width: 680px;
+    display: inline-block;
+    padding: 10px;
+}
+aside{
+    float: right;
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.product{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    width: 700px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product div
+{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+img{
+    max-width: 100%;
+    width: 700px;
+    height: 600px;
+}
+.button{
+    padding: 10px;
+    display: inline-block;
+}
+.cate{
+    text-decoration: none;
+    color: inherit;
+}
+cate:hover{
+    color: aqua;
+}
+.button:last-of-type{
+    background: #3dbcc5;
+    color:white;
+}
+.product-detail{
+    width: 600px;
+    height: 300px;
+
+}
+.product-detail img{
+    max-width: 50%;
+    max-height: 200px;
+    float: left;
+}
+
+footer{
+    margin-top: 120px;    
+}

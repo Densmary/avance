@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tech store</title>
+        <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Push Business</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="compras.html">Comprar</a></li>
+                    <li><a href="contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+            <input type="search" placeholder="Buscar...">
+        </header>
+        <aside>
+        <h2>Tienda:</h2>
+        <section>
+            <h3>Categoria</h3>
+                <hr>
+            <ul>
+                <li><a href="" class="cate">Ropa</a></li>
+                <li><a href="" class="cate">Zapatos</a></li>
+                <li><a href="" class="cate">Maquillaje</a></li>
+                <li><a href="" class="cate">Accesorios</a></li>
+                <li><a href="" class="cate">Otro</a></li>
+            </ul>
+        </section>
+
+        <section>
+        <h3>Precio</h3>
+            <hr>
+        <ul>
+            <li>500</li>
+            <li>700</li>
+            <li>900</li>
+            <li>100</li>
+        </ul>
+        </section>
+    </aside>
+
+    <main>
+        <h2>Cóntactanos:</h2>
+        
+        <form>
+            <div>
+            <label for="nombre">Nombre:</label><input type="text" placeholder="Ingrese su nombre" id="nombre" name="nombre">   
+            </div>
+
+            <div>
+                <label for="correo">Correo</label> <input type="text" placeholder="Ingrese su correo" id="correo" name="correo">
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje</label> <textarea cols="30" rows="5" id="mensaje" name="mensaje"></textarea>
+            </div>
+            <!--
+            <div>
+                <label for="materia">Materia:</label>
+                <select id="materia">  
+                    <optgroup label="Productos defectuosos">
+                <option value="return">Regresos</option> 
+                <option value="faulty_item">Item dañado</option> 
+                    </optgroup>
+                    <optgroup label="Entrega"> 
+                <option value="delivery">Delivery info</option> 
+                    </optgroup>
+                    <optgroup label="Otro">
+                <option value="advice">Asesoramiento</option> 
+                <option value="other">Otro</option>
+            
+                    </optgroup>
+                </select> 
+            </div>-->
+
+            <div>
+                <label for="materia">Motivos</label>
+                <input type="text" list="materias" id="materia" placeholder="Ingresa tus motivos">
+                <datalist id="materias">
+                    <option value="regresos">
+                    <option value="Productos defectuosos">
+                    <option value="Delivery">
+                    <option value="Asesoramiento">
+                    <option value="Otro">
+
+
+                </datalist>
+            </div>
+            <div>
+                <p>Suscribete a ofertas futuras</p>
+                <label for="noticias">Noticias</label>
+                <input type="checkbox" id="noticias" name="subscribe" value="noticias">
+
+                <label for="email">Email</label>
+                <input type="checkbox" id="email" name="subscribe" value="email">
+
+                <label for="post">Post</label>
+                <input type="checkbox" id="post" name="subscribe" value="post">
+            </div>
+
+            <div>
+                <p>¿Como te gustaria que te cóntactemos?</p>
+            <label for="telefóno">Telefóno</label>
+            <input type="radio" id="telefono" name="response" value="telefono">
+
+            <label for="correo">Correo</label>
+            <input type="radio", id="correo", name="response" value="correo">
+
+            </div>
+
+            <div>
+                <input type="submit">
+                <input type="reset">
+                <!--<button type="submit">Enviar</button>-->
+            </div>
+        </form>
+        <form>
+            <input type="password">
+            <!--<input type="date">-->
+            <!--<input type="color">-->
+            <!--<input type="number">-->
+            <!--<input type="range" min="1" max="10" value="10">-->
+
+        </form>
+        <iframe width="600" height="450" style="border:0" Loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrcELwEKMcY8Rb0qVUrMa3pA&key=AIzaSyCxKAgBmvhITEjopzagPXoQXgiUB3j5DUo"></iframe>
+        </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="compras.html">Comprar</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+        
+    </footer>
+    </body>
+</html>
